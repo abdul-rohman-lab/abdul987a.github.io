@@ -1,0 +1,15 @@
+.gambar {
+  background-image: url(/img/gift2.png);
+  height: 620px;
+  width: 371px;
+  background-size: cover;
+}
+
+.kata-kata {
+  padding-top: 50px;
+}
+
+.wl {
+  color: white;
+  font-family: sans-serif;
+}
