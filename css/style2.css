@@ -1,12 +1,12 @@
 .jumbotron {
-  background-image: url(/img/gift.jpg);
+  background-image: url(/img/gift2.png);
   background-size: cover;
-  height: 630px;
+  height: 600px;
   background-attachment: fixed;
 }
 
 img {
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .wl {
