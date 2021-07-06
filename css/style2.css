@@ -1,8 +1,7 @@
 .jumbotron {
   background-image: url(/img/gift.jpg);
-  /* background-size: cover; */
+  background-size: cover;
   height: 600px;
-  /* width: 337px; */
   background-attachment: fixed;
 }
 
