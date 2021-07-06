@@ -1,11 +1,10 @@
-.gambar {
-  background-image: url(/img/gift2.png);
-  height: 620px;
-  width: 371px;
+.jumbotron {
+  background-image: url(/img/gift.jpg);
   background-size: cover;
+  height: 600px;
 }
 
-.kata-kata {
+img {
   padding-top: 50px;
 }
 
