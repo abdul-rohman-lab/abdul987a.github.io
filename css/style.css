@@ -2,8 +2,13 @@ html {
   position: relative;
 }
 
-body {
+/* body {
   margin-bottom: 100px;
+} */
+
+.pembuka {
+  margin-top: -10px;
+  color: black;
 }
 
 .Salam hr {
@@ -12,7 +17,8 @@ body {
 
 .Salam img {
   padding-top: 7px;
-  width: 250px;
+  padding-bottom: 20px;
+  width: 320px;
 }
 
 hr {
@@ -20,24 +26,32 @@ hr {
   border-top: 3px solid #999;
 }
 
-.Keluarga_Utuh img {
+.gaberasaya img {
   height: 200px;
 }
 
-.Keluarga_Tak_Utuh img {
-  width: 300px;
+.Biasanya img {
+  height: 300px;
 }
 
-.Keluarga_Tak_Utuh2 img {
+.Merasatidak img {
   height: 200px;
+}
+
+.Jika_kamu img {
+  width: 280px;
+}
+
+.Tapi_teman img {
+  height: 250;
+}
+
+.Karena {
+  height: 300px;
 }
 
 section {
   text-align: center;
-}
-
-.Jika_Ia_Telah_Tiada h3 {
-  padding-top: 15px;
 }
 
 .Pesan img {
@@ -48,15 +62,15 @@ section {
   width: 320px;
 }
 
-.Buah img {
-  width: 200px;
+.dan_jika img {
+  width: 250px;
 }
 
-.palestina img {
-  width: 300px;
+.Danjika img {
+  width: 250px;
 }
 
-.sPesan img {
+.Karena img {
   width: 200px;
 }
 
@@ -73,79 +87,79 @@ section {
   transform: translate(0, 0);
 }
 
-.Keluarga_Utuh {
+.gaberasaya {
   opacity: 0;
   transition: 2s;
   transform: translate(40px, 0);
 }
 
-.Keluarga_Utuh.muncul {
+.gaberasaya.muncul {
   opacity: 1;
   transform: translate(0, 0);
 }
 
-.Keluarga_Tak_Utuh {
+.Biasanya {
   opacity: 0;
   /* transition: 2s; */
   transform: translate(0, -40px);
 }
 
-.Keluarga_Tak_Utuh.muncul {
+.Biasanya.muncul {
   opacity: 1;
   transition: 2s;
   transform: translate(0, 0);
 }
 
-.Keluarga_Tak_Utuh2 {
+.Merasatidak {
   opacity: 0;
   transform: translate(0, 40px);
 }
 
-.Keluarga_Tak_Utuh2.muncul {
+.Merasatidak.muncul {
   opacity: 1;
   transition: 2s;
   transform: translate(0, 0);
 }
 
-.Jika_Ia_Telah_Tiada {
-  opacity: 0;
-  transform: translate(0, -40px);
-}
-
-.Jika_Ia_Telah_Tiada.muncul {
-  opacity: 1;
-  transition: 2s;
-  transform: translate(0, 0);
-}
-
-.Mungkin {
+.Jika_kamu {
   opacity: 0;
   transform: translate(-40px, 0);
 }
 
-.Mungkin.muncul {
+.Jika_kamu.muncul {
   opacity: 1;
   transition: 2s;
   transform: translate(0, 0);
 }
 
-.palestina {
+.menyesakkan {
+  opacity: 0;
+  transform: translate(-40px, 0);
+}
+
+.menyesakkan.muncul {
+  opacity: 1;
+  transition: 2s;
+  transform: translate(0, 0);
+}
+
+.Tapi_teman {
   opacity: 0;
   transform: translate(40px, 0);
 }
 
-.palestina.muncul {
+.Tapi_teman.muncul {
   opacity: 1;
   transition: 2s;
   transform: translate(0, 0);
 }
 
-.sPesan {
+.Karena {
   opacity: 0;
   transform: translate(0, 40px);
 }
 
-.sPesan.muncul {
+.Karena.muncul {
   opacity: 1;
   transition: 2s;
   transform: translate(0, 0);
@@ -162,12 +176,12 @@ section {
   transform: translate(0, 0);
 }
 
-.Buah {
+.dan_jika {
   opacity: 0;
   transform: translate(0, 40px);
 }
 
-.Buah.muncul {
+.dan_jika.muncul {
   opacity: 1;
   transition: 2s;
   transform: translate(0, 0);
@@ -184,7 +198,29 @@ section {
   transform: translate(0, 0);
 }
 
-.Dan_Ku_Ucapakan {
+.berjuang {
+  opacity: 0;
+  transform: translate(-40px, 0);
+}
+
+.berjuang.muncul {
+  opacity: 1;
+  transition: 2s;
+  transform: translate(0, 0);
+}
+
+.share {
+  opacity: 0;
+  transform: translate(40px, 0);
+}
+
+.share.muncul {
+  opacity: 1;
+  transition: 2s;
+  transform: translate(0, 0);
+}
+
+/* .Dan_Ku_Ucapakan {
   opacity: 0;
   transform: translate(-40px, 0);
 }
@@ -193,7 +229,7 @@ section {
   opacity: 1;
   transition: 2s;
   transform: translate(0, 0);
-}
+} */
 
 .Dipersembahkanoleh {
   opacity: 0;
@@ -206,20 +242,18 @@ section {
   transform: translate(0, 0);
 }
 
-footer {
-  position: absolute;
+.footer1 {
+  margin-bottom: -20px;
+  /* height: 200px; */
   width: 100%;
+}
+
+footer {
+  background-color: #0099ff;
+  margin-bottom: -20px;
   height: 100px;
-  bottom: 0;
-  background-color: #21094e;
-  padding-top: 30px;
 }
-
 footer p {
-  color: #eee;
-  font-size: 1em;
-}
-
-footer p i {
-  color: salmon;
+  margin-top: 30px;
+  color: white;
 }

@@ -3,55 +3,67 @@ $(window).on("load", function () {
   $(".Salam").addClass("muncul");
 });
 
-$(window).on("load", function () {
-  $(".Keluarga_Utuh").addClass("muncul");
-});
+// $(window).on("load", function () {
+//   $(".gaberasaya").addClass("muncul");
+// });
 
 // paralaxx
 $(window).scroll(function () {
   var wScroll = $(this).scrollTop();
 
-  if (wScroll > $(".Keluarga_Tak_Utuh").offset().top - 600) {
-    $(".Keluarga_Tak_Utuh").addClass("muncul");
+  if (wScroll > $(".gaberasaya").offset().top - 350) {
+    $(".gaberasaya").addClass("muncul");
   }
 
-  if (wScroll > $(".Keluarga_Tak_Utuh2").offset().top - 600) {
-    $(".Keluarga_Tak_Utuh2").addClass("muncul");
+  if (wScroll > $(".Biasanya").offset().top - 450) {
+    $(".Biasanya").addClass("muncul");
   }
 
-  if (wScroll > $(".Jika_Ia_Telah_Tiada").offset().top - 600) {
-    $(".Jika_Ia_Telah_Tiada").addClass("muncul");
+  if (wScroll > $(".Merasatidak").offset().top - 430) {
+    $(".Merasatidak").addClass("muncul");
   }
 
-  if (wScroll > $(".Mungkin").offset().top - 600) {
-    $(".Mungkin").addClass("muncul");
+  if (wScroll > $(".Jika_kamu").offset().top - 350) {
+    $(".Jika_kamu").addClass("muncul");
   }
 
-  if (wScroll > $(".palestina").offset().top - 600) {
-    $(".palestina").addClass("muncul");
+  if (wScroll > $(".menyesakkan").offset().top - 350) {
+    $(".menyesakkan").addClass("muncul");
   }
 
-  if (wScroll > $(".sPesan").offset().top - 600) {
-    $(".sPesan").addClass("muncul");
+  if (wScroll > $(".Tapi_teman").offset().top - 300) {
+    $(".Tapi_teman").addClass("muncul");
+  }
+
+  if (wScroll > $(".Karena").offset().top - 600) {
+    $(".Karena").addClass("muncul");
   }
 
   if (wScroll > $(".Pesan").offset().top - 600) {
     $(".Pesan").addClass("muncul");
   }
 
-  if (wScroll > $(".Buah").offset().top - 600) {
-    $(".Buah").addClass("muncul");
+  if (wScroll > $(".dan_jika").offset().top - 600) {
+    $(".dan_jika").addClass("muncul");
   }
 
   if (wScroll > $(".Danjika").offset().top - 600) {
     $(".Danjika").addClass("muncul");
   }
 
-  if (wScroll > $(".Dan_Ku_Ucapakan").offset().top - 600) {
-    $(".Dan_Ku_Ucapakan").addClass("muncul");
+  if (wScroll > $(".berjuang").offset().top - 650) {
+    $(".berjuang").addClass("muncul");
   }
 
-  if (wScroll > $(".Dipersembahkanoleh").offset().top - 600) {
+  if (wScroll > $(".berjuang").offset().top - 600) {
+    $(".berjuang").addClass("muncul");
+  }
+
+  // if (wScroll > $(".Dan_Ku_Ucapakan").offset().top - 600) {
+  //   $(".Dan_Ku_Ucapakan").addClass("muncul");
+  // }
+
+  if (wScroll > $(".Dipersembahkanoleh").offset().top - 500) {
     $(".Dipersembahkanoleh").addClass("muncul");
   }
 });
