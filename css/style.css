@@ -2,9 +2,9 @@ html {
   position: relative;
 }
 
-/* body {
+body {
   margin-bottom: 100px;
-} */
+}
 
 .pembuka {
   margin-top: -10px;
@@ -250,7 +250,7 @@ section {
 
 footer {
   background-color: #0099ff;
-  margin-bottom: -20px;
+  margin-bottom: -100px;
   height: 100px;
 }
 footer p {

@@ -55,8 +55,8 @@ $(window).scroll(function () {
     $(".berjuang").addClass("muncul");
   }
 
-  if (wScroll > $(".berjuang").offset().top - 600) {
-    $(".berjuang").addClass("muncul");
+  if (wScroll > $(".share").offset().top - 600) {
+    $(".share").addClass("muncul");
   }
 
   // if (wScroll > $(".Dan_Ku_Ucapakan").offset().top - 600) {
